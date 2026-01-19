@@ -1,0 +1,123 @@
+{
+  "name": "Новая политика",
+  "description": "",
+  "zones": {
+    "Доверенная зона": {
+      "name": "Доверенная зона",
+      "zone_type": "trusted",
+      "description": "Компьютеры и телефоны",
+      "devices": [],
+      "color": "#4CAF50",
+      "position": [
+        0,
+        0
+      ],
+      "size": [
+        200,
+        150
+      ]
+    },
+    "IoT устройства": {
+      "name": "IoT устройства",
+      "zone_type": "iot",
+      "description": "Умные устройства и камеры",
+      "devices": [
+        {
+          "ip_address": "192.168.0.1",
+          "mac_address": "c4:6e:1f:70:f2:c8",
+          "hostname": "192.168.0.1",
+          "device_type": "iot",
+          "vendor": "Unknown",
+          "open_ports": [
+            80,
+            1900
+          ],
+          "os_info": null,
+          "risk_score": 0.5,
+          "is_gateway": false
+        }
+      ],
+      "color": "#FF9800",
+      "position": [
+        0,
+        0
+      ],
+      "size": [
+        200,
+        150
+      ]
+    },
+    "Гостевая сеть": {
+      "name": "Гостевая сеть",
+      "zone_type": "guest",
+      "description": "Гостевые устройства",
+      "devices": [
+        {
+          "ip_address": "192.168.0.100",
+          "mac_address": "9c:30:5b:7b:40:ab",
+          "hostname": "192.168.0.100",
+          "device_type": "unknown",
+          "vendor": "Unknown",
+          "open_ports": [],
+          "os_info": null,
+          "risk_score": 0.5,
+          "is_gateway": false
+        },
+        {
+          "ip_address": "192.168.0.102",
+          "mac_address": "46:e3:1a:f6:f3:c7",
+          "hostname": "192.168.0.102",
+          "device_type": "unknown",
+          "vendor": "Unknown",
+          "open_ports": [],
+          "os_info": null,
+          "risk_score": 0.5,
+          "is_gateway": false
+        }
+      ],
+      "color": "#9C27B0",
+      "position": [
+        0,
+        0
+      ],
+      "size": [
+        200,
+        150
+      ]
+    },
+    "Серверы": {
+      "name": "Серверы",
+      "zone_type": "server",
+      "description": "Серверы и NAS",
+      "devices": [],
+      "color": "#2196F3",
+      "position": [
+        0,
+        0
+      ],
+      "size": [
+        200,
+        150
+      ]
+    }
+  },
+  "rules": [
+    {
+      "source_zone": "Доверенная зона",
+      "destination_zone": "Гостевая сеть",
+      "action": "allow",
+      "protocol": "any",
+      "ports": null,
+      "description": ""
+    },
+    {
+      "source_zone": "Гостевая сеть",
+      "destination_zone": "Доверенная зона",
+      "action": "deny",
+      "protocol": "icmp",
+      "ports": null,
+      "description": ""
+    }
+  ],
+  "created_at": "2026-01-19T05:24:34.168860"
+}

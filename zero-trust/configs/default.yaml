@@ -1,0 +1,38 @@
+# Конфигурация ZeroTrust Inspector
+
+application:
+  name: "ZeroTrust Inspector"
+  version: "1.0.0"
+  language: "ru"
+  theme: "dark"
+  auto_save: true
+  save_interval: 300
+
+scanning:
+  network: "192.168.1.0/24"
+  timeout: 2
+  ports: [22, 80, 443, 8080, 3389, 5353, 9100, 1900, 554]
+  quick_scan: true
+
+policy:
+  default_zones:
+    - name: "Доверенная зона"
+      type: "trusted"
+      description: "Компьютеры и телефоны пользователей"
+    
+    - name: "IoT устройства"
+      type: "iot"
+      description: "Умные устройства, камеры, колонки"
+    
+    - name: "Гостевая сеть"
+      type: "guest"
+      description: "Гостевые устройства"
+    
+    - name: "Серверы"
+      type: "server"
+      description: "Серверы и NAS"
+
+gui:
+  window_size: [1400, 900]
+  show_tooltips: true
+  animations: true

@@ -1,0 +1,140 @@
+2026-01-19 04:53:58 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 04:53:58 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 04:53:58 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 04:53:58 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 04:53:58 - ZeroTrustInspector - ERROR - ✗ netifaces не установлен
+2026-01-19 04:53:58 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 04:54:42 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 04:54:42 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 04:54:42 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 04:54:42 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 04:54:42 - ZeroTrustInspector - ERROR - ✗ netifaces не установлен
+2026-01-19 04:54:42 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 05:06:35 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 05:06:35 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 05:06:35 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 05:06:35 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 05:06:35 - ZeroTrustInspector - ERROR - ✗ netifaces не установлен
+2026-01-19 05:06:35 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 05:06:41 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 05:06:41 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 05:06:41 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 05:06:41 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 05:06:41 - ZeroTrustInspector - ERROR - ✗ netifaces не установлен
+2026-01-19 05:06:41 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 05:13:47 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 05:13:47 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 05:13:47 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 05:13:47 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 05:13:47 - ZeroTrustInspector - ERROR - ✗ netifaces не установлен
+2026-01-19 05:13:47 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 05:13:51 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 05:13:51 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 05:13:51 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 05:13:51 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 05:13:51 - ZeroTrustInspector - ERROR - ✗ netifaces не установлен
+2026-01-19 05:13:51 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 05:14:54 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 05:14:54 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 05:14:54 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 05:14:54 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 05:14:54 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 05:14:54 - ZeroTrustInspector - DEBUG - Создана директория: logs
+2026-01-19 05:14:54 - ZeroTrustInspector - DEBUG - Создана директория: configs
+2026-01-19 05:14:54 - ZeroTrustInspector - DEBUG - Создана директория: exports
+2026-01-19 05:14:54 - ZeroTrustInspector - DEBUG - Создана директория: backups
+2026-01-19 05:14:54 - ZeroTrustInspector - DEBUG - Создана директория: assets
+2026-01-19 05:14:54 - ZeroTrustInspector - DEBUG - Создана директория: assets/icons
+2026-01-19 05:14:54 - ZeroTrustInspector - DEBUG - Создана директория: assets/styles
+2026-01-19 05:14:54 - ZeroTrustInspector - DEBUG - Создана директория: configs/templates
+2026-01-19 05:14:56 - ZeroTrustInspector - INFO - Создание главного окна...
+2026-01-19 05:14:58 - ZeroTrustInspector - ERROR - Ошибка при запуске GUI: type object 'Qt' has no attribute 'white'
+2026-01-19 05:14:58 - ZeroTrustInspector - ERROR - Traceback (most recent call last):
+  File "C:\Users\user\Desktop\zero-trust\zero-trust\zero-trust\zero-trust\zero-trust\main.py", line 152, in main
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\zero-trust\zero-trust\zero-trust\zero-trust\zero-trust\src\gui\main_window.py", line 318, in __init__
+    self.create_default_zones()
+  File "C:\Users\user\Desktop\zero-trust\zero-trust\zero-trust\zero-trust\zero-trust\src\gui\main_window.py", line 605, in create_default_zones
+    self.update_zones_list()
+  File "C:\Users\user\Desktop\zero-trust\zero-trust\zero-trust\zero-trust\zero-trust\src\gui\main_window.py", line 698, in update_zones_list
+    item.setForeground(Qt.white)
+                       ^^^^^^^^
+AttributeError: type object 'Qt' has no attribute 'white'
+
+2026-01-19 05:23:40 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 05:23:40 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 05:23:40 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 05:23:40 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 05:23:40 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 05:23:40 - ZeroTrustInspector - DEBUG - Создана директория: logs
+2026-01-19 05:23:40 - ZeroTrustInspector - DEBUG - Создана директория: configs
+2026-01-19 05:23:40 - ZeroTrustInspector - DEBUG - Создана директория: exports
+2026-01-19 05:23:40 - ZeroTrustInspector - DEBUG - Создана директория: backups
+2026-01-19 05:23:40 - ZeroTrustInspector - DEBUG - Создана директория: assets
+2026-01-19 05:23:40 - ZeroTrustInspector - DEBUG - Создана директория: assets/icons
+2026-01-19 05:23:40 - ZeroTrustInspector - DEBUG - Создана директория: assets/styles
+2026-01-19 05:23:40 - ZeroTrustInspector - DEBUG - Создана директория: configs/templates
+2026-01-19 05:23:41 - ZeroTrustInspector - INFO - Создание главного окна...
+2026-01-19 05:23:42 - ZeroTrustInspector - ERROR - Ошибка при запуске GUI: type object 'Qt' has no attribute 'black'
+2026-01-19 05:23:42 - ZeroTrustInspector - ERROR - Traceback (most recent call last):
+  File "C:\Users\user\Desktop\zero-trust\zero-trust\zero-trust\zero-trust\zero-trust\main.py", line 152, in main
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\zero-trust\zero-trust\zero-trust\zero-trust\zero-trust\src\gui\main_window.py", line 318, in __init__
+    self.create_default_zones()
+  File "C:\Users\user\Desktop\zero-trust\zero-trust\zero-trust\zero-trust\zero-trust\src\gui\main_window.py", line 606, in create_default_zones
+    self.canvas.add_zone(zone)
+  File "C:\Users\user\Desktop\zero-trust\zero-trust\zero-trust\zero-trust\zero-trust\src\gui\main_window.py", line 150, in add_zone
+    zone_item = ZoneItem(zone)
+                ^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\zero-trust\zero-trust\zero-trust\zero-trust\zero-trust\src\gui\main_window.py", line 104, in __init__
+    self.setPen(QPen(Qt.black, 3))
+                     ^^^^^^^^
+AttributeError: type object 'Qt' has no attribute 'black'
+
+2026-01-19 05:24:32 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 05:24:32 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 05:24:32 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 05:24:32 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 05:24:32 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 05:24:32 - ZeroTrustInspector - DEBUG - Создана директория: logs
+2026-01-19 05:24:32 - ZeroTrustInspector - DEBUG - Создана директория: configs
+2026-01-19 05:24:32 - ZeroTrustInspector - DEBUG - Создана директория: exports
+2026-01-19 05:24:32 - ZeroTrustInspector - DEBUG - Создана директория: backups
+2026-01-19 05:24:32 - ZeroTrustInspector - DEBUG - Создана директория: assets
+2026-01-19 05:24:32 - ZeroTrustInspector - DEBUG - Создана директория: assets/icons
+2026-01-19 05:24:32 - ZeroTrustInspector - DEBUG - Создана директория: assets/styles
+2026-01-19 05:24:32 - ZeroTrustInspector - DEBUG - Создана директория: configs/templates
+2026-01-19 05:24:33 - ZeroTrustInspector - INFO - Создание главного окна...
+2026-01-19 05:24:35 - ZeroTrustInspector - INFO - Приложение запущено успешно
+2026-01-19 11:01:19 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 11:01:19 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 11:01:19 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 11:01:19 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 11:01:19 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 11:01:19 - ZeroTrustInspector - DEBUG - Создана директория: logs
+2026-01-19 11:01:19 - ZeroTrustInspector - DEBUG - Создана директория: configs
+2026-01-19 11:01:19 - ZeroTrustInspector - DEBUG - Создана директория: exports
+2026-01-19 11:01:19 - ZeroTrustInspector - DEBUG - Создана директория: backups
+2026-01-19 11:01:19 - ZeroTrustInspector - DEBUG - Создана директория: assets
+2026-01-19 11:01:19 - ZeroTrustInspector - DEBUG - Создана директория: assets/icons
+2026-01-19 11:01:19 - ZeroTrustInspector - DEBUG - Создана директория: assets/styles
+2026-01-19 11:01:19 - ZeroTrustInspector - DEBUG - Создана директория: configs/templates
+2026-01-19 11:01:20 - ZeroTrustInspector - INFO - Создание главного окна...
+2026-01-19 11:01:22 - ZeroTrustInspector - INFO - Приложение запущено успешно
+2026-01-19 11:19:03 - ZeroTrustInspector - INFO - Запуск ZeroTrust Inspector
+2026-01-19 11:19:03 - ZeroTrustInspector - INFO - ✓ PyQt6 установлен
+2026-01-19 11:19:03 - ZeroTrustInspector - INFO - ✓ python-nmap установлен
+2026-01-19 11:19:03 - ZeroTrustInspector - INFO - ✓ scapy установлен
+2026-01-19 11:19:03 - ZeroTrustInspector - INFO - ✓ psutil установлен
+2026-01-19 11:19:03 - ZeroTrustInspector - DEBUG - Создана директория: logs
+2026-01-19 11:19:03 - ZeroTrustInspector - DEBUG - Создана директория: configs
+2026-01-19 11:19:03 - ZeroTrustInspector - DEBUG - Создана директория: exports
+2026-01-19 11:19:03 - ZeroTrustInspector - DEBUG - Создана директория: backups
+2026-01-19 11:19:03 - ZeroTrustInspector - DEBUG - Создана директория: assets
+2026-01-19 11:19:03 - ZeroTrustInspector - DEBUG - Создана директория: assets/icons
+2026-01-19 11:19:03 - ZeroTrustInspector - DEBUG - Создана директория: assets/styles
+2026-01-19 11:19:03 - ZeroTrustInspector - DEBUG - Создана директория: configs/templates
+2026-01-19 11:19:05 - ZeroTrustInspector - INFO - Создание главного окна...
+2026-01-19 11:19:06 - ZeroTrustInspector - INFO - Приложение запущено успешно

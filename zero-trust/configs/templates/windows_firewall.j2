@@ -1,0 +1,27 @@
+# PowerShell скрипт для настройки Windows Firewall
+# Сгенерировано ZeroTrust Inspector
+# Политика: {{ policy_name }}
+
+# Удаляем старые правила
+Get-NetFirewallRule | Where-Object {$_.DisplayName -like "ZTI_*"} | Remove-NetFirewallRule
+
+# Создаем новые правила
+{% for rule in rules %}
+# Правило: {{ rule.description }}
+New-NetFirewallRule `
+    -DisplayName "ZTI_{{ rule.source_ip }}_to_{{ rule.dest_ip }}" `
+    -Description "{{ rule.description }}" `
+    -Enabled True `
+    -Direction Outbound `
+    -Protocol {{ rule.protocol|protocol_to_str|upper }} `
+    {% if rule.port and rule.protocol|protocol_to_str in ['tcp', 'udp'] %}
+    -RemotePort {{ rule.port }} `
+    {% endif %}
+    -RemoteAddress {{ rule.dest_ip }} `
+    -LocalAddress {{ rule.source_ip }} `
+    -Action {{ rule.action|action_to_str|title }} `
+    -EdgeTraversalPolicy Block
+
+{% endfor %}
+
+Write-Host "Настройка Windows Firewall завершена!"
